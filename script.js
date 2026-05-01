@@ -20,6 +20,10 @@ const questions = [
   { verb: "parler", answers: { infinitive: ["speak"], simplePast: ["spoke"], pastParticiple: ["spoken"] } },
   { verb: "comprendre", answers: { infinitive: ["understand"], simplePast: ["understood"], pastParticiple: ["understood"] } },
   { verb: "donner", answers: { infinitive: ["give"], simplePast: ["gave"], pastParticiple: ["given"] } },
+    { verb: "dire", answers: { infinitive: ["say"], simplePast: ["said"], pastParticiple: ["said"] } },
+  { verb: "prendre", answers: { infinitive: ["take"], simplePast: ["took"], pastParticiple: ["taken"] } },
+  { verb: "rencontrer", answers: { infinitive: ["meet"], simplePast: ["met"], pastParticiple: ["met"] } },
+  { verb: "réveiller", answers: { infinitive: ["wake up"], simplePast: ["woke up"], pastParticiple: ["woken up"] } },
 ];
 
 const questionEl = document.getElementById("question");
