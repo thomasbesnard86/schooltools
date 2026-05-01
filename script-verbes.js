@@ -7,6 +7,7 @@ const verbes = [
   { fr: "chanter", inf: "sing", past: "sang", participle: "sung" },
   { fr: "comprendre", inf: "understand", past: "understood", participle: "understood" },
   { fr: "couper", inf: "cut", past: "cut", participle: "cut" },
+  { fr: "dire", inf: "say", past: "said", participle: "said" },
   { fr: "donner", inf: "give", past: "gave", participle: "given" },
   { fr: "écrire", inf: "write", past: "wrote", participle: "written" },
   { fr: "être", inf: "be", past: "was / were", participle: "been" },
@@ -16,10 +17,14 @@ const verbes = [
   { fr: "manger", inf: "eat", past: "ate", participle: "eaten" },
   { fr: "nager", inf: "swim", past: "swam", participle: "swum" },
   { fr: "parler", inf: "speak", past: "spoke", participle: "spoken" },
+  { fr: "prendre", inf: "take", past: "took", participle: "taken" },
   { fr: "perdre", inf: "lose", past: "lost", participle: "lost" },
+  { fr: "rencontrer", inf: "meet", past: "met", participle: "met" },
+  { fr: "réveiller", inf: "wake up", past: "woke up", participle: "woken up" },
   { fr: "rêver", inf: "dream", past: "dreamt / dreamed", participle: "dreamt / dreamed" },
   { fr: "tomber", inf: "fall", past: "fell", participle: "fallen" },
   { fr: "voir", inf: "see", past: "saw", participle: "seen" },
+
 ];
 
 const tableBody = document.getElementById("table-body");
